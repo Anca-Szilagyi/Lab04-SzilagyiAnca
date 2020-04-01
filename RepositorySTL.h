@@ -1,25 +1,23 @@
-/*#pragma once
-#include "Project.h"
-#include <vector>
+#pragma once
+#include "Aplicatie.h"
+#include <list>
+#include<iterator>
 
 using namespace std;
 
 class RepositorySTL
 {
 private:
-	vector<Project> elem;
+	list<Aplicatie> elem;
 
 public:
 	RepositorySTL();
-	void addElem(Project);
-	bool findElem(Project);
-	void delElem(Project);
-	void updateElem(Project, char*, int, int);
-	Project getItemFromPos(int);
-	vector<Project> getAll();
+	void addElem(Aplicatie);
+	//bool findElem(Aplicatie);
+	//void delElem(Project);
+	//void updateElem(Project, char*, int, int);
+	//Project getItemFromPos(int);
+	list<Aplicatie> getAll();
 	int dim();
 	~RepositorySTL();
-};*/
-
-
-
+};
