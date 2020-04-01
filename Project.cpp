@@ -56,12 +56,12 @@ int Project::getNoOfCommits() {
 // setter
 // In: an object of type Project and a new gitPath (string)
 // Out: the same object with a new gitPath
-void Project::setGitPath(char* gitPath) {
+void Project::setGitPath(char* gitP) {
 	if (gitPath) {
 		delete[] gitPath;
 	}
-	gitPath = new char[strlen(gitPath) + 1];
-	strcpy_s(this->gitPath, strlen(gitPath)+1, gitPath);
+	gitPath = new char[strlen(gitP) + 1];
+	strcpy_s(this->gitPath, strlen(gitPath)+1, gitP);
 }
 
 // setter
