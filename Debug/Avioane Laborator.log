@@ -1,0 +1,3 @@
+﻿  Joc.cpp
+C:\Users\sz12a\source\repos\Avioane Laborator\Avioane Laborator\Joc.cpp(170,1): warning C4805: '==': unsafe mix of type 'char' and type 'bool' in operation
+  Avioane Laborator.vcxproj -> C:\Users\sz12a\source\repos\Avioane Laborator\Debug\Avioane Laborator.exe
